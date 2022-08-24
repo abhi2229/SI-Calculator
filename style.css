@@ -10,6 +10,10 @@ h1
     color: rgb(13, 10, 10);
     font-family: Verdana;
 }
+html, body {
+  height: 100vh;
+  height: calc(var(--vh, 1vh) * 100);
+}
 
 .maindiv
 {
@@ -22,7 +26,11 @@ h1
     margin-right: auto;
 }
 
-
+.modal {
+  width: 50vw;
+  height: 50vh;
+  height: calc(var(--vh, 1vh) * 50);
+}
 
 .contents
 {
